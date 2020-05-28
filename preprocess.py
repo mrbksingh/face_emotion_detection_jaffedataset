@@ -9,20 +9,12 @@ from os.path import join
 cascade_classifier = cv2.CascadeClassifier(CASC_PATH)
 
 
-def format_image(image, flag=1):
+def format_image(image):
     if len(image.shape) > 2 and image.shape[2] == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     else:
         image = cv2.imdecode(image, cv2.IMREAD_GRAYSCALE)
-    if flag == 0:
-        gray_border = np.zeros((150, 150), np.uint8)
-        print(gray_border)
-        gray_border[:, :] = 200
-        gray_border[
-            int((150 / 2) - (SIZE_FACE / 2)): int((150 / 2) + (SIZE_FACE / 2)),
-            int((150 / 2) - (SIZE_FACE / 2)): int((150 / 2) + (SIZE_FACE / 2))
-        ] = image
-        image = gray_border
+   
     faces = cascade_classifier.detectMultiScale(
         image,
         scaleFactor=SCALEFACTOR,
