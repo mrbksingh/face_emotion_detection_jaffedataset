@@ -5,7 +5,7 @@ class Dataset:
     name = DATASET_CSV_FILENAME
     
 class Network:
-    model = 'B'
+    model = 'A'
     use_batchnorm_after_conv_layers = True
     use_batchnorm_after_fully_connected_layers = False
     learning_rate = 0.016
