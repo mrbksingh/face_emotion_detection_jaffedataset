@@ -1,5 +1,4 @@
 
-from emotion_recognition import NETWORK
 import tflearn
 from tflearn.layers.core import input_data, dropout,flatten, fully_connected
 from tflearn.layers.conv import conv_2d, max_pool_2d
