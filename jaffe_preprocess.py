@@ -33,7 +33,7 @@ def format_image(image):
     try:
         image = cv2.resize(image, (48, 48),
                            interpolation=cv2.INTER_AREA)
-        cv2.imwrite('image' + '.png', image)
+        #cv2.imwrite('image' + '.png', image)
         image = image / 255.
 
     except Exception:
