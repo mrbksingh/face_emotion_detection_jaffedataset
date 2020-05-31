@@ -14,5 +14,5 @@ How to use :
       
       **python train.py --train=yes --evaluate=yes**
 
-![](master/Info/JAFFE1.png)
-![](master/Info/JAFFE.png)
+![Training start](master/Info/JAFFE1.png)
+![Accuracy](master/Info/JAFFE.png)
