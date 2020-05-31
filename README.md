@@ -1,4 +1,4 @@
-# face_emotion_detection_jaffedataset
+# face_emotion_detection_jaffe_dataset
 Real time face emotion recognition
 
 How to use :
