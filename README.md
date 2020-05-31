@@ -8,5 +8,6 @@ About dataset - https://www.kaggle.com/fshfsh/starter-modified-jaffe-615ace9d-f
 
 How to use :
   1.  **python jaffe_preprocess.py**
-  2.  **python train.py --train=yes**     
+  2.  **python train.py --train=yes**
+      or
       **python train.py --train=yes --evaluate=yes**
