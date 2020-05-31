@@ -13,3 +13,6 @@ How to use :
       or
       
       **python train.py --train=yes --evaluate=yes**
+
+![](master/Info/jaffe1.png)
+![](master/Info/jaffe.png)
