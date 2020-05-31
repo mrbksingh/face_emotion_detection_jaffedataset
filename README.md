@@ -14,5 +14,5 @@ How to use :
       
       **python train.py --train=yes --evaluate=yes**
 
-![](master/Info/jaffe1.png)
-![](master/Info/jaffe.png)
+![](master/Info/JAFFE1.png)
+![](master/Info/JAFFE.png)
